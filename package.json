@@ -1,0 +1,25 @@
+{
+  "name": "qubikasportslclubmanagement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusnespral/QubikaSportslClubManagement.git"
+  },
+  "author": "Agustin Nespral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agusnespral/QubikaSportslClubManagement/issues"
+  },
+  "homepage": "https://github.com/agusnespral/QubikaSportslClubManagement#readme",
+  "devDependencies": {
+    "cypress": "^14.1.0"
+  },
+  "dependencies": {
+    "npx": "^10.2.2"
+  }
+}
