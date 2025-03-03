@@ -2,9 +2,7 @@ import { LoginPage, HomePage } from "../support/pageObjects/Login";
 
 describe('Technical test - Excercise 3', function () {
 
-  beforeEach(function () {
-    cy.fixture('data.json').as('data');
-  });
+
 
   before('Register a new user trough API and save user information', function () {
     cy.fixture('data.json').then((data) => {
