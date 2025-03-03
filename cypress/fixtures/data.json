@@ -3,6 +3,8 @@
     "password": "123456",
     "userName": "Test user 2325",
     "roles": "ROLE_ADMIN",
-    "token": ""
+    "token": "",
+    "categoryName": "Category2325",
+    "subCategoryName": "Subcategory2325"
   }
   

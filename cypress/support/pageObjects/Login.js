@@ -15,4 +15,25 @@ class Login {
 
 }
 
-export const LoginPage = new Login
+class Home {
+
+    locators = {
+        categoryButton: () => cy.get(':nth-child(3) > .nav-link'),
+        addCategoryButton: () => cy.get('.btn.btn-primary'),
+        inputCategoryName: () => cy.get('#input-username'),
+        submitCategoryButton: () => cy.get('button[type="submit"]'),
+        isSubCategoryCheckBox: () => cy.get('#customCheckMain'),
+        inputSelectParentCategory: () => cy.get('.custom.ng-select')
+    }
+
+    //methods
+
+    clickOnButton(button) {
+        this.locators[button]().click();
+    };
+
+}
+
+export const LoginPage = new Login()
+export const HomePage = new Home()
+
