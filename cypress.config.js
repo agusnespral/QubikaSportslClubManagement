@@ -7,6 +7,10 @@ module.exports = defineConfig({
     env: {
       apiUrl: "https://api.club-administration.qa.qubika.com/api",
       baseUrl: "https://club-administration.qa.qubika.com/#/auth/login",
+      email: "",
+      token: "",
+      categoryId: "",
+      subCategoryId: ""
     }
   },
 });
